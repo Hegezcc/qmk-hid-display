@@ -1,0 +1,12 @@
+{
+    "openweathermap_key": "get your own from https://openweathermap.org/home/sign_up",
+    "weather_city": "try your own city here!",
+    "alphavantage_key": "get your own from https://www.alphavantage.co/support/#api-key",
+    "stocks": [
+        {"function": "GLOBAL_QUOTE", "symbol": "TSLA", "unit": "$"},
+        {"function": "GLOBAL_QUOTE", "symbol": "GME", "unit": "$"},
+        {"function": "CURRENCY_EXCHANGE_RATE", "from_currency": "GBP", "to_currency": "EUR", "unit": "E"},
+        {"function": "CURRENCY_EXCHANGE_RATE", "from_currency": "BTC", "to_currency": "EUR", "unit": "E"},
+        {"function": "CURRENCY_EXCHANGE_RATE", "from_currency": "DOGE", "to_currency": "EUR", "unit": "E"}
+    ]
+}
